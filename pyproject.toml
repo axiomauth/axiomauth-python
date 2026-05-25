@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "axiomauth"
+version = "1.3.1"
+description = "Official Python SDK for AxiomAuth enterprise identity management"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Axiom Identity Services Ltd.", email = "dev@axiomauth.com" }]
+keywords = ["sso", "saml", "oidc", "identity", "authentication", "mfa", "axiomauth"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+]
+requires-python = ">=3.9"
+dependencies = ["httpx>=0.27.0"]
+
+[project.urls]
+Homepage = "https://axiomauth.com"
+Documentation = "https://axiomauth.com/docs"
+Repository = "https://github.com/axiomauth/axiomauth-python"
+"Bug Tracker" = "https://github.com/axiomauth/axiomauth-python/issues"
